@@ -1,3 +1,8 @@
+/*
+    1// Figura 3.17: fig03_17.cpp
+    2// Cria e manipula um objeto GradeBook; ilustra a validação.
+    Deitel, Harvey; Paul, Harvey. C++ Como Programar (p. 80). Edição do Kindle.
+*/
 #include <iostream>
 #include <string>
 using namespace std;

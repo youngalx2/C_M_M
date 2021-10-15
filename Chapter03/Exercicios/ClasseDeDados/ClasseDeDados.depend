@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1628625814 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\classededados\main.cpp
+	<iostream>
+	"Dados.h"
+
+1628625414 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\classededados\dados.h
+	<iostream>
+
+1628625725 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\classededados\dados.cpp
+	<iostream>
+	"Dados.h"
+

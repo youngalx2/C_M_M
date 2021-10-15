@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1628601132 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\classefatura3_13\main.cpp
+	<iostream>
+	<locale>
+	"Fatura.h"
+
+1628540835 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\classefatura3_13\fatura.h
+	<iostream>
+	<string>
+
+1628599560 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\classefatura3_13\fatura.cpp
+	<string>
+	<iostream>
+	"Fatura.h"
+

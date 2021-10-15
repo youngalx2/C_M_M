@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1628607693 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\classeempregado3_14\main.cpp
+	<iostream>
+	"Empregado.h"
+	<locale>
+
+1628607056 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\classeempregado3_14\empregado.h
+	<iostream>
+	<string>
+
+1628607056 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\classeempregado3_14\empregado.cpp
+	<iostream>
+	<string>
+	"Empregado.h"
+

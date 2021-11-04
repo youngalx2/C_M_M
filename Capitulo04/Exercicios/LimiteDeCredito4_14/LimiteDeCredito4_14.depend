@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1629113822 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\limitedecredito4_14\main.cpp
+	<iostream>
+	<locale>
+	"LimiteDeCredito.h"
+
+1629059076 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\limitedecredito4_14\limitedecredito.h
+	<iostream>
+
+1629115241 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\limitedecredito4_14\limitedecredito.cpp
+	<iostream>
+	<iomanip>
+	"LimiteDeCredito.h"
+

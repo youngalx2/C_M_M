@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1628774413 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\gradebook1\main.cpp
+	<iostream>
+	"GradeBook1.h"
+
+1628770713 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\gradebook1\gradebook1.h
+	<string>
+
+1628774139 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\gradebook1\gradebook1.cpp
+	<iostream>
+	"GradeBook1.h"
+
+1628776116 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exemplos\gradebook1\gradebook1.cpp
+	<iostream>
+	"GradeBook1.h"
+
+1628770713 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exemplos\gradebook1\gradebook1.h
+	<string>
+
+1628776295 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exemplos\gradebook1\main.cpp
+	<iostream>
+	"GradeBook1.h"
+

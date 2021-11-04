@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1629148036 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\maiorvalor4_17\main.cpp
+	<iostream>
+	<locale>
+	"MaiorValor.h"
+
+1629147966 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\maiorvalor4_17\maiorvalor.h
+	<iostream>
+
+1629148094 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\maiorvalor4_17\maiorvalor.cpp
+	<iostream>
+	"MaiorValor.h"
+

@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1628975659 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\consumodecombustivel\main.cpp
+	<iostream>
+	<locale>
+	"Consumo.h"
+
+1628975787 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\consumodecombustivel\consumo.h
+	<iostream>
+
+1628975659 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\consumodecombustivel\consumo.cpp
+	<iostream>
+	"Consumo.h"
+

@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1629119551 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\comissaoporvendas4_15\main.cpp
+	<iostream>
+	"ComissaoPorVida.h"
+
+1629118743 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\comissaoporvendas4_15\comissaoporvida.h
+	<iostream>
+
+1629119719 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exercicios\comissaoporvendas4_15\comissaoporvendas.cpp
+	<iostream>
+	<locale>
+	<iomanip>
+	"ComissaoPorVida.h"
+

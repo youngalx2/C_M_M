@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1628944927 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exemplos\analysis\main.cpp
+	<iostream>
+	"Analysis.h"
+
+1628879226 c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exemplos\analysis\analysis.h
+	<iostream>
+
+1628945923 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo04\exemplos\analysis\analysis.cpp
+	<iostream>
+	<locale>
+	"Analysis.h"
+

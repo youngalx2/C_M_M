@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1628717679 source:c:\users\samsung\documents\github\c_mais_mais\c_mais_mais\capitulo03\exercicios\gradebook01\main.cpp
+	<iostream>
+	<locale>
+

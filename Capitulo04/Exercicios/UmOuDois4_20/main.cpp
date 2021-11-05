@@ -24,6 +24,7 @@ int main()
     int contador = 1;
     int aprovados = 0;
     int reprovados = 0;
+    int errados = 0;
 
     // enquanto contador menor ou igual a 10 faça
     while( contador <= 10)
@@ -34,35 +35,34 @@ int main()
 
         // se numero igual a 1
         if( numero == 1 )
-            aprovados++; // incrementa aprovados
+            aprovados++; // aprovados incrementa 1
 
         if( numero == 2 ) // se número igual a 2
-            reprovados++; // incrementa reprovados
+            reprovados++; // reprovados incrementa 1
 
-        // incrementa contador
+        // contador incrementa 1
         contador++;
 
-        if( contador > 1 ) // se contador maior que 1
-            if( numero < 1 ) // e numero menor que 1
-                contador--; // decrementa contador
+        if( numero > 2 ) // se numero maior que 2
+        {
+            cout << "Errado! Número maior que 2" << endl;
+            errados++; // errados incrementa 1
+            contador--; // contador decrementa 1
+        } // fim if
 
-        if( contador > 1 ) // se contador maior que 1
-            if( numero > 2 ) // e numero maior que 2
-                contador--; // decrementa contador
-
-        if( contador == 1) // se contador igual a 1
-            if( numero < 1 ) // e numero menor que 1
-                contador = 0; // contador recebe zero
-
-        if( contador == 1) // se contador igual a 1
-            if( numero > 2 ) // e numero maior que 2
-                    contador = 0; // contador recebe zero
+        if( numero < 1 ) // se numero menor que 1
+        {
+            cout << "Errado! Número menor que 1" << endl;
+            errados++; // errados incrementa 1
+            contador--; // contador decrementa 1
+        } // fim if
 
     } // fim while contador
 
     // mostra resultado
     cout << "\nForam cadastrados " << contador - 1 << " Alunos." << endl;
     cout << "Aprovados: " << aprovados << "\nReprovados: " << reprovados << endl;
+    cout << "Errados: " << errados << endl;
 
     // pausa o programa
     system("pause");

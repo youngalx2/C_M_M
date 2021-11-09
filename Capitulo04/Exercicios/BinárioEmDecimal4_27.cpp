@@ -18,6 +18,7 @@
 // incluir biblioteca
 #include <iostream>
 #include <locale>
+#include <math.h>
 
 using namespace std;
 
@@ -30,6 +31,74 @@ int main()
     // limpa a tela
     system("cls");
 
+    // cria variáveis
+    int n1, n2, n3, n4, n5, n6, n7, n8, n9; // separa os digitos do número informado
+    int numero; // recebe número informado pelo usuário
+    int decimal; // mostra o número em decimal
+    int sentinela = 0;
+
+    // enquanto sentinela diferente de -1 faça
+    while( sentinela != -1)
+    {
+        // limpa a tela
+        system("cls" );
+
+        // cabeçalho
+        cout << "BINÁRIO PARA DECIMAL" << endl;
+
+        // entrada de dados
+        cout << "Digite um número binário até 9 digitos: ";
+        cin >> numero; // aguarda entrada do usuário
+
+        // separando digitos
+        n1 = numero / 100000000 % 100000000; // recebe o primeiro digito
+        n2 = numero % 100000000 / 10000000; // recebe o segundo digito
+        n3 = numero % 10000000 / 1000000; // recebe o terceiro
+        n4 = numero % 1000000 / 100000; // recebe o quarto
+        n5 = numero % 100000 / 10000; // recebe o quinto
+        n6 = numero % 10000 / 1000;
+        n7 = numero % 1000 / 100;
+        n8 = numero % 100 / 10;
+        n9 = numero % 10 / 1;
+
+        // condições para achar o número decimal
+        if( n9 == 1 )
+            decimal += pow(2,0);
+
+        if( n8 == 1 )
+            decimal += pow(2,1);
+
+        if( n7 == 1 )
+            decimal += pow(2,2);
+
+        if( n6 == 1 )
+            decimal += pow(2,3);
+
+        if( n5 == 1 )
+            decimal += pow(2,4);
+
+        if( n4 == 1 )
+            decimal += pow( 2,5 );
+
+        if( n3 == 1 )
+            decimal += pow( 2, 6 );
+
+        if( n2 == 1 )
+            decimal += pow( 2, 7 );
+
+        if( n1 == 1 )
+            decimal += pow( 2, 8 );
+
+        // mostra resultado
+        cout << "O número binário: " << numero <<  "\nEquivale ao número decimal:  " << decimal << endl;
+
+        // pergunta se quer sair
+        cout << "Digite qualquer tecla para continuar (-1 para sair)? ";
+        cin >> sentinela; // aguarda entrada pelo usuário
+        decimal = 0;
+        numero = 0;
+
+    } // fim while
 
     system("pause"); // pausa do programa
 

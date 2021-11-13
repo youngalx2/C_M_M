@@ -31,9 +31,9 @@ int main()
 
     // variáveis
     int numero = 0;
+    int novoNumero = 0;
     int n1, n2,n3,n4;
     int cripto1, cripto2, cripto3, cripto4;
-    int des1, des2, des3, des4;
 
     // entrada de dados
     cout << "Digite um número de 4 digitos: ";
@@ -45,25 +45,24 @@ int main()
     n3 = numero % 100 / 10;
     n4 = numero % 10 / 1;
 
-    // encriptação
+    // criptografia
     cripto1 = ( n1 + 7 ) % 10;
     cripto2 = ( n2 + 7 ) % 10;
     cripto3 = ( n3 + 7 ) % 10;
     cripto4 = ( n4 + 7 ) % 10;
 
-    // descriptação
-    des1 = ( cripto1 + 7) % 10;
-    des2 = ( cripto2 - 7 ) % 10;
-    des3 = ( cripto3 - 7 ) % 10;
-    des4 = ( cripto4 - 7 ) % 10;
+    // cria um novo número
+    novoNumero = (cripto3 * 1000) + (cripto4 * 100) + (cripto1 * 10 ) + (cripto2 * 1 );
 
     // mostra digitos
     cout << "Número: ";
     cout << n1 << " " << n2 << " " << n3 << " " << n4 <<  endl;
+
     cout << "Criptografia: ";
     cout << cripto3 << " " << cripto4 << " " << cripto1 << " " << cripto2 << endl;
-    cout << "Descripto: ";
-    cout << des1 << " " << des2 << " " << des3 << " " << des4 << endl;
+
+    cout << "Novo número = " << novoNumero << endl;
+    cout << endl;
 
     system("pause"); // pausa do programa
 

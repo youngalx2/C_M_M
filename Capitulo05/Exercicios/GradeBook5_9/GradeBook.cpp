@@ -21,6 +21,9 @@ GradeBook::GradeBook( string name )
     cCount = 0; // inicializa a contagem da nota C com zero
     dCount = 0; // inicializa a contagem da nota D com zero
     fCount = 0; // inicializa a contagem da nota F com zero
+    totalDasNotas = 0; // inicializa o total das notas em zero
+    totalDePontos = 0; // inicializa o total de pontos em zero
+    mediaDePontos = 0; // inicializa a média de pontos em zero
 } // fim construtor
 
 // cria a função para configurar o nome do curso com até 25 caracteres
@@ -63,6 +66,11 @@ void GradeBook::inputGrades()
 {
     // cria variável
     int grade;
+    int pontosA = 0;
+    int pontosB = 0;
+    int pontosC = 0;
+    int pontosD = 0;
+    int pontosF = 0;
 
     // entrada de dados
     cout << "\nEntre com a letra ( A-a, B-b,C-c,D-d ou F-f) para nota : " << endl;
@@ -76,21 +84,25 @@ void GradeBook::inputGrades()
             case 'A':
             case 'a':
                 aCount++;
+                pontosA += 4;
                 break;
 
             case 'B':
             case 'b':
                 bCount++;
+                pontosB += 3;
                 break;
 
             case 'C':
             case 'c':
                 cCount++;
+                pontosC += 2;
                 break;
 
             case 'D':
             case 'd':
                 dCount++;
+                pontosD += 1;
                 break;
 
             case 'F':
@@ -108,17 +120,32 @@ void GradeBook::inputGrades()
                 break;
 
         } // fim switch
+
     } // fim while
+    // calcula total das notas;
+    totalDasNotas = aCount + bCount + cCount + dCount + fCount;
+
+    // calcula o total de pontos
+    totalDePontos = pontosA + pontosB + pontosC + pontosD;
+
+    // calcula a média dos pontos
+    mediaDePontos = totalDePontos / 4;
+
 } // fim função
+
 
 // cria a função displayGradeReport
 void GradeBook::displayGradeReport()
 {
     // imprima
     cout << "\nRelação dos estudantes que tiveram às notas: " << endl;
-    cout << "\nA: " << aCount; // mostra total das notas A
-    cout << "\nB: " << bCount; // mostra total das notas B
-    cout << "\nC: " << cCount; // mostra total das notas C
-    cout << "\nD: " << dCount; // mostra total das notas D
-    cout << "\nF: " << fCount; // mostra total das notas F
+    cout << "\n\tA: " << aCount << " Alunos"; // mostra total das notas A
+    cout << "\n\tB: " << bCount << " Alunos"; // mostra total das notas B
+    cout << "\n\tC: " << cCount << " Alunos"; // mostra total das notas C
+    cout << "\n\tD: " << dCount << " Alunos"; // mostra total das notas D
+    cout << "\n\tF: "  << fCount << " Alunos"; // mostra total das notas F
+    cout << "\n\tTotal de notas: " << totalDasNotas;
+    cout << "\n\tTotal de pontos: " << totalDePontos;
+    cout << "\n\tMédia dos pontos: " << mediaDePontos;
+
 } // fim função displayGradeReport

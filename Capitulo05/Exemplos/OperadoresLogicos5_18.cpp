@@ -19,6 +19,25 @@ int main()
     // limpa a tela
     system("cls");
 
+    // cria a tabela verdade para o operador AND  ( E ) &&
+    cout << boolalpha << "Operador Lógico E ( && )"
+            << "\nverdade && verdade: " << ( true && true )
+            << "\nverdade && falso: " << ( true && false )
+            << "\nfalso && verdade: " << ( false && true )
+            << "\nfalso && falso: " << ( false && false ) << endl;
+
+    // cria a tabela verdade para o operador OU ||
+    cout << boolalpha << "\nOperador lógico OU ||"
+            << "\nverdade || verdade: " << ( true || true )
+            << "\nverdade || falso: " << ( true || false )
+            << "\nfalso || verdade: " << ( false || true )
+            << "\nfalso || falso: " << ( false || false ) << endl;
+
+    // cria a tabela verdade para o operador NÃO !
+    cout << boolalpha << "\nOperador lógico NÃO !"
+            << "\n!verdade: " << ( !true )
+            << "\n!falso: " << ( !false ) << endl;
+
     // pula linha
     cout << endl;
 

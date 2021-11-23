@@ -43,7 +43,7 @@ int main()
     setlocale( LC_ALL, "portuguese");
 
     // limpa a tela
-    //system("cls");
+    system("cls");
 
     // pula linha
     cout << endl;
